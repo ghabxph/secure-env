@@ -1,0 +1,23 @@
+{
+  "name": "@ghabxph/secure-env",
+  "version": "0.0.1",
+  "repository": "git@github.com:ghabxph/secure-env.git",
+  "author": "ghabxph <11975597+ghabxph@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.14.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "crypto": "^1.0.1",
+    "fastify": "^4.27.0",
+    "inquirer": "^8.0.0"
+  }
+}
